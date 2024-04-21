@@ -31,12 +31,6 @@ subnets = {
     virtual_network_name = "rm_vnet"
     address_prefixes     = ["192.168.1.224/27"]
   },
-  sub4 = {
-    name                 = "rm-subnets"
-    resource_group_name  = "rm_rgs"
-    virtual_network_name = "rm_vnet"
-    address_prefixes     = ["10.0.4.0/24"]
-  }
 }
 
 nics = {
